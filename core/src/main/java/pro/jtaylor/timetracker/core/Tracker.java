@@ -27,10 +27,10 @@ public class Tracker {
 
     /** Size method
     **/
-	public int size() {
+    public int size() {
         return entries.size();
     }
-	
+    
     /** get method
     * @param int index for entries
     **/
