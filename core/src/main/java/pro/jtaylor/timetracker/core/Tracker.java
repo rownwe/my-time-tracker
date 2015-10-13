@@ -11,25 +11,34 @@ public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
 
+	/**
+	* Add method
+	* @param TimeEntry to add to entries
+	**/
     public void add(TimeEntry entry) {
         entries.add(entry);
     }
 
+	/**
+	* Remove method
+	* @param TimeEntry to remove from entries
+	**/
     public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
 
-    public int size() {
+ 	/**
+	* Size method
+	**/
+	public int size() {
         return entries.size();
     }
-
+	
+	/**
+	* get method
+	* @param int index for entries
+	**/
     public TimeEntry get(int index) {
-		
-		boolean valid = false;
-		if(valid == true) {
-			// whatever
-		}
-		
         return entries.get(index);
     }
 }
