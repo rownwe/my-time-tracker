@@ -12,7 +12,7 @@ public class Tracker {
     private List<TimeEntry> entries;
 
     /** Add method
-    * @param TimeEntry to add to entries
+    * @param TimeEntry entry to add to entries
     **/
     public void add(TimeEntry entry) {
         entries.add(entry);
